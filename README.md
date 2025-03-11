@@ -103,8 +103,6 @@ The ball's friction and speed vary depending on the terrain:
 Different enemies are placed around the level. Each enemy has a special ability to prevent the player to reach the hole.
 
 Enemy type:
-- Chaser – Actively chases the ball when it comes close. If it catches the ball, the level resets.
-Modifier: 
 - Obliterator – Resets the ball to the starting point if touched.
 - Bouncer – Knocks the ball in a random direction on impact.
   
@@ -120,7 +118,8 @@ The game is won by navigate around enemies and hazards, and hitting the ball int
 ### Paragraph Version
 The player controls the golf ball using a pull-back and release mechanic, aiming by clicking and dragging in the opposite direction of the desired shot. When released, a force proportional to the drag distance is applied to the ball. Optionally, a wind modifier can influence the ball’s trajectory, with wind direction and intensity affecting movement, especially when airborne. The ball interacts with various terrains, each impacting friction and speed: grass provides standard movement, sand and snow significantly slow the ball, ice reduces control due to sliding, rocky surfaces have low friction, allowing extended movement, while lava rivers and water reset the ball.
 
-Throughout the level, enemies hinder the player's progress toward the hole. Patrollers move in set patterns, while Chasers actively pursue the ball and reset the level upon contact. Some enemies have modifiers that further impact gameplay; for example, Obliterators reset the ball to the starting position upon contact, while Bouncers deflect it in a random direction. To counter these obstacles, players can collect power-ups if functionality is added, such as Shields, which temporarily protect the ball from enemy effects, Time Slow, which slows time for better aiming and enemy avoidance, Speed Boost, which increases ball speed for the next shot, and Better Aiming, which provides a trajectory preview until the ball stops moving.
+Throughout the level, enemies hinder the player's progress toward the hole. Obliterators reset the ball to the starting position upon contact, while Bouncers deflect it in a random direction. To counter these obstacles, players need to skillfully avoid these encounters and dodge these enemies with the way they aim their shots. 
+
 
 The objective is to skillfully navigate around enemies and hazards, strategically utilizing mechanics and power-ups to land the ball in designated holes in as few strokes as possible.
 ## Team Members
