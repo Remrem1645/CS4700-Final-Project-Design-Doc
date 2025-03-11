@@ -73,7 +73,6 @@ A golf course built around an active volcano, with lava rivers, and rocky cliffs
 	- Sand & Snow: Significantly slows the ball.
 	- Ice: Causes the ball to slide, reducing control.
 	- Lava River & Water: Resets the ball.
-	- Rocky Surface: Low friction, allowing extended movement.
 - Enemies interfere with the ball’s movement.
 	- Patroller – Moves in a circular path or follows a set route.
 	- Chaser – Actively chases the ball when it comes close. If it catches the ball, the level resets.
@@ -86,6 +85,7 @@ A golf course built around an active volcano, with lava rivers, and rocky cliffs
 	- Better Aiming - Shows the projectile til the ball stop moving after swing.
 	- Time slow - Slow down time and make it easier to aim and avoid enemy
 - The game is won when the ball lands in the hole in the fewest strokes possible.
+- 
 ## Game mechanics
 ### Ball Mechanism
 #### Player Control
@@ -97,23 +97,23 @@ The ball's friction and speed vary depending on the terrain:
 - Grass: Standard speed and control.
 - Sand & Snow: Significantly slows the ball.
 - Ice: Causes the ball to slide, reducing control.
-- Lava River & Water: Resets the ball.
-- Rocky Surface: Low friction, allowing extended movement.
+- Lava River & Water: Falling into Lava or Water resets the ball.
 
 ### Enemy Mechansim 
 Different enemies are placed around the level. Each enemy has a special ability to prevent the player to reach the hole.
 
 Enemy type:
-- Patroller – Moves in a circular path or follows a set route.
 - Chaser – Actively chases the ball when it comes close. If it catches the ball, the level resets.
 Modifier: 
 - Obliterator – Resets the ball to the starting point if touched.
 - Bouncer – Knocks the ball in a random direction on impact.
+  
 ### (Optional) Level Power-Ups
 - Shields - Protects the ball from enemy effects for a limited time.
 - Time slow - Slow down time and make it easier to aim and avoid enemy
 - Speed Boost - increase the ball speed for the next swing, allow to travel faster
 - Better Aiming - Shows the projectile til the ball stop moving after swing.
+  
 ### Goal
 The game is won by navigate around enemies and hazards, and hitting the ball into designated holes in the game level in as few strokes as possible. 
 
@@ -131,12 +131,12 @@ Kenneth Wang <br/>
 ## Division of Labor
 
 ### David Wei: <br/>
-Placeholder
+Setting up the core mechanics of the game, ensuring the ball interacts correctly with the environment.
 
 ### Erik Ignacio: <br/> 
-Placeholder
+Creating textures and graphics for the environment. So the players can clearly tell what type of level they are on.
 
 ### Kenneth Wang: <br/>
-Placeholder
+Setting up enemies and creating level designs, ensuring each level has the correct difficulty and complexity. 
 
 ## Prototype Screenshot
